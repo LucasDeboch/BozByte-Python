@@ -1,15 +1,22 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: 14218db7-8c61-4ca7-b244-c6bb45bed971
-  # title:
+  id: 422d9d65-16a0-4e9d-89ca-c824dc97d1c9
+  title: "BozByte Python: Learn to Think & Build"
   # description:
   # keywords: []
-  # authors: []
-  github: https://github.com/LucasDeboch/BozByte-Python
-  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  authors: [BozByte Learning Team]
+  github: https://github.com/LucasDeboch/Project-100X
+  toc:
+    - file: prefer.md
+    - file: about.md
+    
 site:
   template: book-theme
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
+  options:
+    # Optional: load custom CSS (create this file if you want tweaks)
+    # style: css/custom.css
+
