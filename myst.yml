@@ -10,6 +10,7 @@ project:
   toc:
     - file: prefer.md
     - file: about.md
+    - file: mental_model.md
     
 site:
   template: book-theme
@@ -19,4 +20,5 @@ site:
   options:
     # Optional: load custom CSS (create this file if you want tweaks)
     # style: css/custom.css
+    
 
