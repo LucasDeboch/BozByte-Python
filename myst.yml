@@ -11,6 +11,8 @@ project:
     - file: prefer.md
     - file: about.md
     - file: mental_model.md
+    - file: foundation.md
+    - file: variables.md
     
 site:
   template: book-theme
