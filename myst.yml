@@ -9,10 +9,34 @@ project:
   github: https://github.com/LucasDeboch/Project-100X
   toc:
     - file: prefer.md
+      title: Preface
     - file: about.md
+      title: About This Book
     - file: mental_model.md
+      title: Computational thinking
     - file: foundation.md
-    - file: variables.md
+      title: Foundations of Python Programming
+      open_in_same_tab: true
+      children:
+        - file: foundation/variables.md
+          title: Variables & Data Types
+        - file: foundation/expressions.md
+          title: Expressions & Operators
+          # Deep Dives (hidden from sidebar)
+        - file: foundation/expr_deepdives/arithmetic.md
+          hidden: true
+        - file: foundation/expr_deepdives/comparison.md
+          hidden: true
+        - file: foundation/expr_deepdives/logical.md
+          hidden: true
+        - file: foundation/expr_deepdives/membership_identity.md
+          hidden: true
+        - file: foundation/expr_deepdives/assignment.md
+          hidden: true
+        - file: foundation/expr_deepdives/precedence.md
+          hidden: true
+        - file: foundation/expr_deepdives/numeric_precision.md
+          hidden: true
     
 site:
   template: book-theme
@@ -22,5 +46,6 @@ site:
   options:
     # Optional: load custom CSS (create this file if you want tweaks)
     # style: css/custom.css
+    folders: true
     
 

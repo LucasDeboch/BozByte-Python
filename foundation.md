@@ -252,4 +252,4 @@ At this point, your toolkit includes:
 From here, you’ll move into **Guided Mini Projects**, where each program introduces a new Python construct while reinforcing foundational logic.
 
 Next section:  
-👉 [Variables and Data Types — Representing Information in Code](variables.md)
+👉 [Variables and Data Types — Representing Information in Code](foundation/variables.md)
