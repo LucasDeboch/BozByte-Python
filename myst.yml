@@ -37,6 +37,8 @@ project:
           hidden: true
         - file: foundation/expr_deepdives/numeric_precision.md
           hidden: true
+        - file: foundation/control_flow.md
+          title: Control Flow
     
 site:
   template: book-theme
