@@ -41,6 +41,8 @@ project:
           title: Control Flow
         - file: foundation/functions.md
           title: Functions
+        - file: foundation/data_structure.md
+          title: Data Structures
 site:
   template: book-theme
   # options:
