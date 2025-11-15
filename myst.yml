@@ -43,6 +43,8 @@ project:
           title: Functions
         - file: foundation/data_structure.md
           title: Data Structures
+        - file: foundation/input_output.md
+          title: Input and Output
 site:
   template: book-theme
   # options:
